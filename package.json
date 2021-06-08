@@ -22,6 +22,8 @@
     "lint": "eslint src",
     "format": "prettier --write src",
     "format:check": "prettier --check src",
+    "demo:0a": "ts-node src/examples/0a-no-destructuring.ts",
+    "demo:0b": "ts-node src/example/0b-with-destructuring.ts",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "type-check": "tsc --noEmit"
