@@ -1,4 +1,4 @@
-import introduceScholar from "./4-introduce-scholar";
+import introduceScholar from "./1d-introduce-scholar";
 
 test("introduceScholar introduces a Scholar by name with their cohort number", () => {
   expect(
