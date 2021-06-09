@@ -1,6 +1,6 @@
 import introduceScholar from "./1d-introduce-scholar";
 
-test("introduceScholar introduces a Scholar by name with their cohort number", () => {
+test.skip("introduceScholar introduces a Scholar by name with their cohort number", () => {
   expect(
     introduceScholar({
       lastName: "Akaka",
