@@ -1,4 +1,4 @@
-import { abbreviation, capital, population } from "./1b-object-destructuring";
+import { abbreviation, capital, population } from "./0b-object-destructuring";
 
 test("country variables have correct values", () => {
   expect(abbreviation).toBe("UK");
