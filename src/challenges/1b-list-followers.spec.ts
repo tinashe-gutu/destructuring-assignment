@@ -1,4 +1,4 @@
-import listFollowers from "./1a-list-followers";
+import listFollowers from "./1b-list-followers";
 
 test.skip("listFollowers lists by name the first two followers and announces how many others there are", () => {
   expect(
@@ -8,7 +8,7 @@ test.skip("listFollowers lists by name the first two followers and announces how
       "@rihanna",
       "@justinbieber",
     ])
-  ).toBe("Followed by @barackobama, @STORMZYOFFICIAL and 2 others");
+  ).toBe("Followed by @barackobama, @STORMZYOFFICIAL and others");
 
   expect(
     listFollowers([
@@ -18,7 +18,7 @@ test.skip("listFollowers lists by name the first two followers and announces how
       "@CNN",
       "@NASA",
     ])
-  ).toBe("Followed by @taylorswift13, @katyperrry and 3 others");
+  ).toBe("Followed by @taylorswift13, @katyperrry and others");
 
   expect(
     listFollowers([
@@ -35,5 +35,5 @@ test.skip("listFollowers lists by name the first two followers and announces how
       "@k",
       "@l",
     ])
-  ).toBe("Followed by @a, @b and 10 others");
+  ).toBe("Followed by @a, @b and others");
 });
