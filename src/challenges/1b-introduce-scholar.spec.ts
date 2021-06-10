@@ -1,4 +1,4 @@
-import introduceScholar from "./1d-introduce-scholar";
+import introduceScholar from "./1b-introduce-scholar";
 
 test.skip("introduceScholar introduces a Scholar by name with their cohort number", () => {
   expect(
