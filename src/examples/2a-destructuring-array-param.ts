@@ -1,9 +1,7 @@
-
-
 function sumFirstTwo(numbers: number[]): number {
-  const firstNum = numbers[0]
-  const secondNum = numbers[1]
-  return firstNum + secondNum
+  const firstNum = numbers[0];
+  const secondNum = numbers[1];
+  return firstNum + secondNum;
 }
 
 // function sumFirstTwo(numbers: number[]): number {
