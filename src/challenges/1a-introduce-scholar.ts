@@ -4,7 +4,11 @@ interface Scholar {
   cohortNumber: number;
 }
 
-function introduceScholar({firstName, lastName, cohortNumber}: Scholar): string {
+function introduceScholar({
+  firstName,
+  lastName,
+  cohortNumber,
+}: Scholar): string {
   // complete function
   // use object destructuring, for practice!
   return `${firstName} ${lastName} is an Academy Scholar, on Cohort ${cohortNumber}.`;
